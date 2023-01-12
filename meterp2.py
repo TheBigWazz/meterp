@@ -90,11 +90,12 @@ def update_display():
             dB = round(20 * log10(rms / ref))
             label.setText(str(dB) + " dB")
             progress_bar.setValue(rms)
+            progress_bar.setRange(0, 9000)
         except ValueError:
             label.setText('Muted')
             
     progress_bar.repaint()
-    QtCore.QTimer.singleShot(1, update_display)
+    QtCore.QTimer.singleShot(100, update_display)
 
 
 # Start updating the display
