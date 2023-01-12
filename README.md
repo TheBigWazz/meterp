@@ -1,4 +1,4 @@
-# meterp
+# MeterP
 A digital level meter for input devices
 
 ![image](https://user-images.githubusercontent.com/80355486/212165935-77cb0f6d-ca79-42ff-864a-db403be1d546.png)
