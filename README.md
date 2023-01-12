@@ -6,7 +6,7 @@ A digital level meter for input devices that shows live values.
 ## Notes 
 - Actual dB readout is approximate. ***This tool should not be used for accurate measurements.***
 - If an input device becomes muted (or silent, in the case of noise removal applications) the readout shows ```-```
-- Consumes 16mb RAM and ~ 0.5% CPU
+- Consumes less than 20mb RAM and ~ 0.5% CPU
 
 # Compiling
 Follow the instructions below to compile the program yourself, or download the .exe from the releases above.
